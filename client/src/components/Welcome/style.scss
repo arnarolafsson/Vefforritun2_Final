@@ -1,0 +1,73 @@
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
+form{
+    background: white;
+    border: 1px solid rgba(121, 121, 121, 0.849);;
+    border-radius: 4px;
+    display: flex;
+    
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    
+}
+label {
+    display: flex;
+    flex-direction: column;
+}
+label > span {
+    color: rgba(58, 58, 58, 0.849);
+    font-size: 14px;
+    display: block;
+    order: 1;
+    margin-top: 10px;
+}
+label input {
+    order: 2;
+    outline: none;
+}
+label input::placeholder {
+    color: rgb(231, 229, 229);
+}
+input {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+    height: 30px;
+    line-height: 18px;
+    margin-top: 5px;
+    order: 2;
+    padding: 4px 8px;
+    width: 250px;
+}
+input[type=submit]{
+    font-weight: bold;
+    order: 4;
+    color: white;
+    background: rgb(0, 161, 81);
+}
+input[type=submit]:hover{
+    cursor: pointer;
+    background: rgb(0, 119, 60);
+    transition: all 0.15s;
+}
+.logo {
+    width: 150px;
+    height: 150px;
+    margin: auto auto;
+    background-image: url("logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+
+}
+p{
+    color: red;
+}

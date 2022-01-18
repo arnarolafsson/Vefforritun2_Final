@@ -1,0 +1,30 @@
+.userlist{
+    // float: 'right', minHeight: '100%', borderLeft: '1px solid #aaa' , width: '140px'
+    display: flex;
+    flex-flow: column wrap;
+    border-left: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    width: 180px;
+    overflow-y: scroll;
+    height: 600px;
+
+}
+.usersoffline{
+    border-bottom: 1px solid #aaa;
+    background-color: #fc7c7c;
+}
+.usersonline{
+    border-bottom: 1px solid #aaa;
+    background-color: #8fffad;
+    button:hover:enabled {
+        background-color: #6dbf83;
+        cursor: pointer;
+    }
+    
+}
+.connection{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 5px;
+}

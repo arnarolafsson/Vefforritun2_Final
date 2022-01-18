@@ -1,0 +1,17 @@
+.challengelist{
+    // float: 'right', minHeight: '100%', borderLeft: '1px solid #aaa' , width: '140px'
+    display: flex;
+    flex-flow: column wrap;
+    border-right: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    width: 180px;
+    overflow-y: scroll;
+    height: 600px;
+
+}
+.ctitle{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 5px;
+}

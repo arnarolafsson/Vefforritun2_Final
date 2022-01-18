@@ -1,0 +1,23 @@
+.challenger{
+    text-align: center;
+    padding: 10px;
+    button{
+        width: 70px;
+        height: 70px;
+        font-weight: bold;
+    }
+    .acceptbtn{
+        background-color: #8fffad;
+    }
+    .acceptbtn:hover{
+        cursor: pointer;
+        background-color: #6dbf83;
+    }
+    .declinebtn{
+        background-color: #fc7c7c;
+    }
+    .declinebtn:hover{
+        cursor: pointer;
+        background-color: #ca6565;
+    }
+}

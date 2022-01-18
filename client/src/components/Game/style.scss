@@ -1,0 +1,16 @@
+.game{
+    text-align: center;
+    
+}
+.backbtn{
+    margin-top: 10px;
+    padding: 15px;
+    color: white;
+    background: rgb(0, 161, 81);
+    font-weight: bold;
+}
+.backbtn:hover{
+    cursor: pointer;
+    background: rgb(0, 119, 60);
+    transition: all 0.15s;
+}

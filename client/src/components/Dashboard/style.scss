@@ -1,0 +1,14 @@
+.dashboard{
+    height: 100vh;
+}
+.content{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    justify-content: space-between;
+}

@@ -1,0 +1,30 @@
+.navcontainer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100px;
+    background-color: #eee;
+    justify-content: space-between;
+    button:hover{
+        cursor: pointer;
+    }
+}
+.navitem{
+    width: 200px;
+    padding: 20px;
+    display: inline-block;
+
+}
+.navlogo{
+    width: 75px;
+    height: 75px;
+    background-image: url("logo.png"); 
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
